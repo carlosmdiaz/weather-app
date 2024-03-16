@@ -5,6 +5,24 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
+  safelist: [
+    "text-9xl",
+    "flex",
+    "flex-col",
+    "bg-black/50",
+    "p-8",
+    "rounded-md",
+    "z-50",
+    "text-center",
+    "pb-6",
+    "text-gray-300",
+    "justify-between",
+    "font-bold",
+    "text-xl",
+    "text-2xl",
+    "justify-around",
+    "h-[90vh]",
+  ],
   theme: {
     extend: {
       backgroundImage: {
